@@ -45,8 +45,8 @@ public class BioskopWithScanner11 {
                     for (int j = 0; j < penonton[i].length; j++) {
                         if (penonton[i][j] != null) {
                             System.out.printf("Baris %d, Kolom %d: %s\n", i + 1, j + 1, penonton[i][j]);
-                        }else {
-                            System.out.printf("Baris %d, Kolom %d: ***\n", i + 1, j + 1);
+                        }else{
+                            System.out.printf("Baris %d, Kolom %d: ***\n", i + 1, j + 1, penonton[i][j]);
                         }
                     }
                 }
