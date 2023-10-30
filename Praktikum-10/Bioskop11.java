@@ -1,3 +1,4 @@
+
 public class Bioskop11 {
     public static void main(String[] args) {
         String[][] penonton = new String[4][2];
@@ -18,8 +19,8 @@ public class Bioskop11 {
 
 
         System.out.println(penonton.length);
-        for (int i = 0; i < penonton.length; i++){
-            System.out.println("Panjang baris ke-" + (i+1) +" : " + penonton[i].length);
+        for (String[] barisPenonton : penonton){
+            System.out.println("Panjang baris :" + barisPenonton.length);
         }
 
     }
