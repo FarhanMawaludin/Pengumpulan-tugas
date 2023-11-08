@@ -1,13 +1,10 @@
 import java.util.Scanner;
-
-public class TugasIndividu111 {
+public class TugasIndividu411 {
     public static void main(String[] args) {
         Scanner input11 = new Scanner(System.in);
-        int n;
-        
-        System.out.print("Masukkan N: ");
-        n = input11.nextInt();
-        System.out.println();
+
+        System.out.print("Masukan jumlah N: ");
+        int n = input11.nextInt();
         
         for (int i = 1; i <= n; i++) {
             
@@ -16,9 +13,10 @@ public class TugasIndividu111 {
             }
             
             for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
     }
+    
 }
